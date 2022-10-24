@@ -99,7 +99,7 @@ class Programm
     }
     public static void Main(string[] args)
     {
-        List<List<string>> lines = ToLines(args[1]);
+        List<List<string>> lines = ToLines(args[0]);
         //DisplayStringList_2D(lines);
         Console.WriteLine(toAsm(lines));
         Input("Press any key to contuine ...");
