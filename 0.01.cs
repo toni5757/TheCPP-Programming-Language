@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+
 //0.01
 //Copyright: TheCPP
 class vars
