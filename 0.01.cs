@@ -1,4 +1,6 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
+//0.01
+//Copyright: TheCPP
 class vars
 {
     private List<int> groessen = new List<int>();
