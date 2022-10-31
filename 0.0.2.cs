@@ -134,6 +134,5 @@ class Programm
     {
         List<List<string>> lines = ToLines("Programm.txt");
         toAsm(lines);
-        //DisplayStringList_2D(lines);
     }
 }
