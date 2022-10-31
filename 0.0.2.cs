@@ -45,7 +45,7 @@ class Programm
         {
             string line = lines_backup[i] + ";";
             line = line.Replace("\n", "");
-            Regex regex1 = new Regex(@"({)|(})|(\()|(\))|(,)|(')|("")|(\\)|(//)|(/*)|(*/)");
+            Regex regex1 = new Regex(@"({)|(})|(\()|(\))|(,)|(')|("")|(\\)|(//)|(/)|( )");
             List<string> final = regex1.Split(line).ToList();
 
             lines.Add(final);
@@ -57,12 +57,11 @@ class Programm
         // Displaying the elements of List
         foreach (var b in myList)
         {
-            Console.Write("[");
             foreach (var k in b)
             {
-                Console.Write(k);
+                Console.Write(": " +  k);
             }
-            Console.WriteLine("],");
+            Console.WriteLine();
         }
     }
     public static string toAsm(List<List<string>> tockens)
@@ -100,14 +99,20 @@ class Programm
                 if (!isInString)
                 {
                     if (tocken == "//" && !big_ignore) ignore = true;
-                    else if (tocken == "/*")
+                    else if (tocken == "*" && tocken_bevor == "/")
                     {
                         big_ignore = true;
-                        Console.Write("\n auf");
                         ignore = true;
                     }
-                    else if (tocken == "*/") big_ignore = false;
+                    if (big_ignore == true)
+                    {
+                        if (tocken == "/" && tocken_bevor == "*") {
+                            big_ignore = false;
+                            ignore = false;
+                        }
+                    }
                 }
+                
                 //###### COMMENTS   ########//
                 if (isInString && !ignore) {
                     if (instring >= 1)
@@ -129,5 +134,6 @@ class Programm
     {
         List<List<string>> lines = ToLines("Programm.txt");
         toAsm(lines);
+        //DisplayStringList_2D(lines);
     }
 }
