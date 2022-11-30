@@ -6,6 +6,16 @@ It includes:
 >variables (using is in process)
 
 And I want to add much more things.
+### [TODO]
+|Type of change| Done|
+|--|--|
+| Variable dectaction | X|
+| Variable using| X |
+| Funktion dectaction | X |
+| Funktion calling| X |
+| Funktion using |X |
+| Inline Assembler| Done |
+
 ## Using
 
  1. You must compile the code with Visual Studio.
@@ -31,3 +41,9 @@ When you run this programm:
     function main() {
 	    print(HELLO_WORLD);
     }
+When you run it, it prints Hello World.
+
+    >TheCPP-Language-Code HelloWorld.txt HelloWorld
+    Hello World!
+## Bit of words
+I hope that you download my language.  If you detect an error please report that. Much is in progress. Thank you for reading.
