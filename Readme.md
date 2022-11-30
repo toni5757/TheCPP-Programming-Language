@@ -9,11 +9,12 @@ And I want to add much more things.
 ### [TODO]
 |Type of change| Done|
 |--|--|
-| Variable dectaction | X|
+| Variable dectaction | Done|
 | Variable using| X |
 | Funktion dectaction | X |
 | Funktion calling| X |
 | Funktion using |X |
+| Preprocessor |X |
 | Inline Assembler| Done |
 
 ## Using
