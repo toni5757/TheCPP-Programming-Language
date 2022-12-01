@@ -1,7 +1,0 @@
-#define test "TEST TEST"
-#define ABC
-int a = 10;
-int b{};
-print(test);
-print(ABC);
-asm("jmp 0");
