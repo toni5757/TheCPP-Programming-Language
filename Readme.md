@@ -10,15 +10,15 @@ And I want to add much more things.
 |Type of change| Done|
 |--|--|
 | Variables | X|
-|     -detaction | Done ]
+|     -detaction | Done |
 |     -using| X |
 | Funktions | X |
-|     -detaction | Done ]
+|     -detaction | Done |
 |     -calling| X |
 |     -using |X |
 |      Inline Assembler funktion| Done |
 | Preprocessor |X |
-|     -#define | Done ]
+|     -#define | Done |
 |     -#ifdef  | X |
 |     -#ifndef | X |
 |     -#endif  | X |
