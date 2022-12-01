@@ -363,7 +363,7 @@ class Programm
                     }
                     else if (endif)
                     {
-
+                        ifdefs.pop();
                     }
                     //#### DEFINE END ####//
                 }
