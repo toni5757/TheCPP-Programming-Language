@@ -21,9 +21,9 @@ And I want to add much more things.
 |      Inline Assembler funktion| Done |
 | Preprocessor |X |
 |     -#define | Done |
-|     -#ifdef  | X |
-|     -#ifndef | X |
-|     -#endif  | X |
+|     -#ifdef  | Done |
+|     -#ifndef | Done |
+|     -#endif  | Done |
 
 ## Using
 
