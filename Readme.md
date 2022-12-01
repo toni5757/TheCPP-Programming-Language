@@ -21,7 +21,7 @@ And I want to add much more things.
 |      Inline Assembler funktion| Done |
 | Preprocessor |X |
 |     -#define | Done |
-|     -#ifdef  | Done | //Errors in that
+|     -#ifdef  | Done |
 |     -#ifndef | Done |
 |     -#endif  | Done |
 
@@ -55,6 +55,8 @@ When you run it, it prints Hello World.
     >TheCPP-Language-Code Programm.txt
     Hello World!
 >-->For more informations read the doc.md<--
+## Public error detected by me:
+#ifdef isn´t not functunally
 ## Bit of words
 I hope that you download my language.  
 If you detect an error please report that. Much is in progress. 
