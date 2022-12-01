@@ -1,5 +1,5 @@
 # Documentation
-# Hello World!
+## Hello World!
 It´s a tradition of programming to make a Hello World programm. In my programming language the code of this programm is that:
 
     function main() {
