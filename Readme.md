@@ -9,13 +9,19 @@ And I want to add much more things.
 ### [TODO]
 |Type of change| Done|
 |--|--|
-| Variable dectaction | Done|
-| Variable using| X |
-| Funktion dectaction | X |
-| Funktion calling| X |
-| Funktion using |X |
+| Variables | X|
+|     -detaction | Done ]
+|     -using| X |
+| Funktions | X |
+|     -detaction | Done ]
+|     -calling| X |
+|     -using |X |
+|      Inline Assembler funktion| Done |
 | Preprocessor |X |
-| Inline Assembler| Done |
+|     -#define | Done ]
+|     -#ifdef  | X |
+|     -#ifndef | X |
+|     -#endif  | X |
 
 ## Using
 
