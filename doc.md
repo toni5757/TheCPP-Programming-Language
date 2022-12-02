@@ -66,7 +66,39 @@ So. When you compile that:
 When you delte the `#define run` then it will print nothing.
 ### ifndef
 Does the same thing as `#ifdef`. But in negativ.
+
+    #ifndef TEST
+    print("TEST is not defined\nI define now TEST");
+	#define TEST "TEST"
+	#endif
+When you run that:
+
+    >TheCPP-Language-Code ifndefTest.txt
+    TEST is not defined
+    I define now TEST
+
 ### endif
 Says that a ifdef/ifndef area it at end
+A small example:
 
-    
+    print("ABC");
+    #ifdef TEST
+    print("DEFG");
+    #endif
+    print("HIJKL");
+  When you run that it will print you ABCHIJKL:
+  
+
+    >TheCPP-Lanuage-Code endifTest.txt
+    ABCHIJKL
+
+## Inline Assembler
+My TheCPP-Language-Code includes a inline assembler.
+You can use it simple with `asm`.
+
+    asm("nop"); //do nothing
+  So it works:
+  
+
+ - It´s look what´s between the cling
+ - copy that into the assembler code
