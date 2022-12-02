@@ -56,7 +56,7 @@ When you run it, it prints Hello World.
     Hello World!
 >-->For more informations read the doc.md<--
 ## Public error detected by me:
-#ifdef isn´t not functunally
+#ifdef isn´t not functunally. It detect not the first and the second letter of the word to process it. 
 ## Bit of words
 I hope that you download my language.  
 If you detect an error please report that. Much is in progress. 
